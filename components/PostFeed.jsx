@@ -35,7 +35,6 @@ export default function PostFeed() {
         
         <Tweet key={tweet.id} id={tweet.id} data={tweet.data()} />
       ))}
-      <Tweet />
     </div>
   );
 }
